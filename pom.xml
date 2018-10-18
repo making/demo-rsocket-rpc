@@ -16,7 +16,7 @@
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <maven.compiler.target>${java.version}</maven.compiler.target>
         <maven.compiler.source>${java.version}</maven.compiler.source>
-        <java.version>11</java.version>
+        <java.version>1.8</java.version>
         <protoc.version>3.6.1</protoc.version>
         <rsocket.version>0.11.8</rsocket.version>
         <rsocket-rpc.version>0.2.6.BUILD-SNAPSHOT</rsocket-rpc.version>
