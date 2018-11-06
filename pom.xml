@@ -19,9 +19,9 @@
         <java.version>1.8</java.version>
         <protoc.version>3.6.1</protoc.version>
         <rsocket.version>0.11.8</rsocket.version>
-        <rsocket-rpc.version>0.2.6.BUILD-SNAPSHOT</rsocket-rpc.version>
+        <rsocket-rpc.version>0.2.7</rsocket-rpc.version>
         <start-class>com.example.demorsocketrpc.DemoServer</start-class>
-        <spring-boot.version>2.1.0.RC1</spring-boot.version>
+        <spring-boot.version>2.1.0.RELEASE</spring-boot.version>
     </properties>
 
     <dependencies>
@@ -169,11 +169,6 @@
     </repositories>
 
     <pluginRepositories>
-        <pluginRepository>
-            <id>jfrog-snapshot</id>
-            <name>JFrog Snapshot</name>
-            <url>https://oss.jfrog.org/oss-snapshot-local</url>
-        </pluginRepository>
         <pluginRepository>
             <id>spring-snapshots</id>
             <name>Spring Snapshots</name>
